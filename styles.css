@@ -87,6 +87,11 @@ li.dropdown {
 
 
 }
+.address{
+    display: flex;
+    justify-content: flex-end;
+    padding-top:190px ;
+}
 
 .endPage {
     display: flex;
@@ -95,7 +100,7 @@ li.dropdown {
 
 footer {
     color: bisque;
-    background-color: darkblue;
+    background-color: mediumblue;
     height: 145px;
 }
 
@@ -144,11 +149,13 @@ body {
 
 .text {
     display: flex;
-    color: darkblue;
+    color: whitesmoke;
     font-size: 15px;
     padding: 8px 12px;
     width: 100%;
     text-align: center;
+    justify-content: center;
+    align-items: center;
 }
 
 .dots {
