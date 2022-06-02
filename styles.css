@@ -36,8 +36,10 @@ ul {
     justify-content: center;
     flex-wrap: wrap;
     padding: 7px;
-}
 
+    
+}
+.dropdown
 li a,
 .dropbtn {
     display: inline-block;
@@ -50,6 +52,8 @@ li a,
 li a:hover,
 .dropdown:hover .dropbtn {
     background-color: darkblue;
+    font-style:bold ;
+    font-size: larger;
 }
 
 li.dropdown {
@@ -65,6 +69,7 @@ li.dropdown {
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
+    
 }
 
 .dropdown-content a {
@@ -77,6 +82,7 @@ li.dropdown {
 
 .dropdown-content a:hover {
     background-color: #f1f1f1;
+   
 }
 
 .dropdown:hover .dropdown-content {
@@ -84,10 +90,11 @@ li.dropdown {
 }
 
 .dropics {
-    display: flex;
+    display: block;
+    height: 400px;
+    width: 450px;
     justify-content: center;
-    width: 350px;
-    height: 300px;
+
 }
 
 .logo {
@@ -103,8 +110,14 @@ li.dropdown {
 
 .address {
     display: flex;
-    justify-content: end;
+    /*justify-content: end;*/
     padding-top: 190px;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.headerText{
+    display: flex;
+    flex-direction: row;
 }
 
 .endPage {
@@ -144,6 +157,7 @@ body {
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    padding-bottom: 75px
 }
 
 .slides {
@@ -163,7 +177,7 @@ body {
 
 .text {
     display: flex;
-    color: whitesmoke;
+    color: crimson;
     font-size: 15px;
     padding: 8px 12px;
     width: 100%;
@@ -189,6 +203,7 @@ body {
     display: flex;
     flex-direction: row;
     transition: background-color 0.6s ease;
+
 }
 
 .active {
